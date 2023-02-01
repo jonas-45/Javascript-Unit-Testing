@@ -1,0 +1,23 @@
+{
+  "name": "javascript-unit-testing",
+  "version": "1.0.0",
+  "description": "A project to illustrate how unit testing is done in javascript",
+  "main": "strLength.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonas-45/Javascript-Unit-Testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonas-45/Javascript-Unit-Testing/issues"
+  },
+  "homepage": "https://github.com/jonas-45/Javascript-Unit-Testing#readme",
+  "devDependencies": {
+    "jest": "^29.4.1"
+  }
+}
