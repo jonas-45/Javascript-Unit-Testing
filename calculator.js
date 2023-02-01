@@ -19,7 +19,7 @@ class calculator {
     return arguments.length > 1 ? Math.floor((arguments[0] * arguments[1])): 'invalid';
   }
 
-  capitalize = (str) => str[0].toUpperCase().concat(str.slice(1).toLowerCase());
+  capitalize = (str) => typeof str === 'string' ? str[0].toUpperCase().concat(str.slice(1).toLowerCase()) : 'not string';
 }
 
 module.exports = calculator;

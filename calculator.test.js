@@ -161,7 +161,20 @@ describe('Multiply numbers', () => {
 });
 
 describe('Capitalize string', () => {
-  test('Should be a string with the first letter capitalized', () => {
+
+  test('the provided argument should be a string', () => {
+    //Arrange
+    const name = 2343;
+    const calculatorObj = new calculator();
+
+    //Act
+    const capitalize = calculatorObj.capitalize(name);
+
+    //Assert
+    expect(capitalize).toBe('not string');
+  });
+
+  test('First letter of the string should be capitalized', () => {
     //Arrange
     const name = 'jonas';
     const calculatorObj = new calculator();
